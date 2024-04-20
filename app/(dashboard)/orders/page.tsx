@@ -3,7 +3,7 @@ import { columns } from '@/components/orders/OrderColumns'
 import { Separator } from '@/components/ui/separator'
 
 const Orders = async () => {
-	const res = await fetch('http://localhost:3000/api/orders', {
+	const res = await fetch('https://borcelle-admin.vercel.app/api/orders', {
 		cache: 'no-store',
 	})
 
